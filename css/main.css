@@ -1,0 +1,108 @@
+/* ==========================================================================
+  Name: 		
+  Version:  1.0.0
+  Author:		Al Amin Hossen
+  Website:  alaminhossen.com
+  ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.btn-main {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: #409fff;
+  padding: 10px 35px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 1px solid #409fff;
+}
+.btn-main:hover {
+  color: #fff;
+  background: #0073e5;
+}
+/* Header Section */
+.container-fluid {
+  width: 98%;
+  margin: 0 auto;
+}
+.header-area {
+  background-image: url("../img/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.header-area .navbar-nav {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.header-area .navbar-nav .nav-item:hover {
+  background-color: #f7f9fa;
+}
+.header-area .navbar-nav .nav-item {
+  border-right: 1px solid rgba(23, 24, 26, 11);
+}
+.header-area .navbar-light .navbar-nav .nav-link {
+  color: #17181a;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.card-area .card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 solid;
+  width: 300px;
+  padding: 20px 0;
+}
+.card-area .card .down-arrow {
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.card-area .card h2 {
+  color: #17181a;
+  font-size: 22px;
+}
+.card-area .card-name {
+  margin: 0 20px;
+}
+.card-area .card-download {
+  margin: 0 20px;
+  border-bottom: 1px solid #e8ebed;
+}
+.card-area .card .far {
+  font-size: 30px;
+  font-weight: 400;
+  color: #409fff;
+}
+.header-area .fruiteo {
+  position: absolute;
+  color: #fff;
+  font-weight: 500;
+  bottom: 10px;
+  right: 15px;
+}
